@@ -1,0 +1,125 @@
+﻿.table .account-row {
+    padding-left: 1rem;
+    font-weight: normal;
+}
+/*.table
+{
+    padding-left:1rem;
+}*/
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    .result td, .result th {
+        background-color: cyan !important;
+        -webkit-print-color-adjust: exact;
+    }
+}
+@page {
+    size: landscape;
+}
+.result {
+    font-weight: bold;
+    border: 3px solid !important;
+    background-color: cyan !important;
+}
+
+.basic-table thead th, .table thead tr {
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.coloredBorder td, .coloredBorder th {
+    border-left: red solid 1px !important;
+    border-right: red solid 1px !important;
+}
+
+.table-bordered tbody tr {
+    border-left: red solid 1px !important;
+}
+
+tr:last-child {
+    border-bottom: 1px solid;
+}
+
+.contents {
+    -webkit-print-color-adjust: exact;
+}
+
+@media print {
+    .table thead th, .table thead tr {
+        border: 2px solid black;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .coloredBorder td, .coloredBorder th {
+        border-left: red solid 1px !important;
+        border-right: red solid 1px !important;
+    }
+
+    .table-bordered tbody tr {
+        border-left: red solid 1px !important;
+    }
+
+    tr:last-child {
+        border-bottom: 1px solid;
+    }
+}
+
+.navbar {
+    background-color: #007bff !important;
+    /*#000066*/
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ccdef1 !important;
+}
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #ccdef1 !important;
+    }
+
+        .navbar-light .navbar-nav .nav-link:hover::after {
+            color: #ccdef1 !important;
+        }
+
+.coloredBorder .dollar {
+    border-left: 3px solid red !important;
+}
+
+.span4 img {
+    margin-right: 10px;
+}
+
+.span4 .img-left {
+    float: left;
+}
+
+table.table-responsive-md.manualSync {
+    border-collapse: unset;
+}
+
+    table.table-responsive-md.manualSync td {
+        padding: 2rem;
+    }
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.table thead th {
+    border: 2px solid black !important;
+}
+
+.hide {
+    display: none
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <DatabaseConfig>
+    <noofdatabase>0</noofdatabase>
+  </DatabaseConfig>
+  <CompanyName>Sportsman Hotel</CompanyName>
+  <ImportBudgetExcelPath></ImportBudgetExcelPath>
+  <MYOBDatabaseConnection>
+    <Servername>DESKTOP-Q9GV03S</Servername>
+    <Authentication>2</Authentication>
+    <Username>TestUser1</Username>
+    <Password>testuser1</Password>
+    <Databasename>MYOBAR_TestDB24</Databasename>
+  </MYOBDatabaseConnection>
+  <ReportDatabaseConnection>
+    <Servername>DESKTOP-Q9GV03S</Servername>
+    <Authentication>2</Authentication>
+    <Username>TestUser1</Username>
+    <Password>testuser1</Password>
+    <Databasename>Report_TestDB24</Databasename>
+  </ReportDatabaseConnection>
+  <MYOBConfig>
+    <Developerkey>a7uyxkczsus6f7tw52ma54ac</Developerkey>
+    <Developersecret>dAsjE68Dqj8SmArKPknznAbt</Developersecret>
+    <EmailAccount>support@datadevice.com.au</EmailAccount>
+    <CompanyFileName>Sportsman Hotel</CompanyFileName>
+    <CompanyFileId>f8b5f292-389e-431d-b7b2-60ae82519fd9</CompanyFileId>
+  </MYOBConfig>
+  <EmailConfig>
+    <Server>smtp.gmail.com</Server>
+    <Port>587</Port>
+    <UseSSL>True</UseSSL>
+    <Username>
+    </Username>
+    <Password>
+    </Password>
+    <To>
+    </To>
+    <From>
+    </From>
+    <Subject>Test Subject</Subject>
+    <Enabled>True</Enabled>
+  </EmailConfig>
+</Settings>
